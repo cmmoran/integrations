@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/next/index.ts"],"sourcesContent":["/**\n * SDK configuration for using the ory-next library.\n */\nexport const edgeConfig = {\n  basePath: \"/api/.ory\",\n  baseOptions: {\n    withCredentials: true,\n  },\n}\n"],"names":[],"mappings":";;;;MAGa,aAAa;AAAA,EACxB,UAAU;AAAA,EACV,aAAa;AAAA,IACX,iBAAiB;AAAA;AAAA;;;;"}

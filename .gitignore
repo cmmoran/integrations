@@ -3,10 +3,6 @@ node_modules
 typings
 dist
 coverage
-ui
-next-edge
-next
-routes
 
 .idea
 
