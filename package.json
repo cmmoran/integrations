@@ -14,7 +14,7 @@
     "format:check": "prettier --check ${npm_package_config_prettierTarget}",
     "build": "rm -rf dist ui nextjs && rollup -c",
     "prepublishOnly": "npm run build",
-    "prepack": "rm -rf dist ui nextjs && rollup -c",
+    "postinstall": "rm -rf dist ui nextjs && rollup -c",
     "test": "jest --detectOpenHandles"
   },
   "devDependencies": {
