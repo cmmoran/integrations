@@ -15,7 +15,7 @@
     "build": "rm -rf dist ui nextjs && rollup -c",
     "prepublishOnly": "npm run build",
     "test": "jest --detectOpenHandles",
-    "postinstall": "rm -rf dist ui nextjs && rollup -c"
+    "postinstall": "npm install && rollup -c"
   },
   "devDependencies": {
     "@babel/core": "7.15.5",
