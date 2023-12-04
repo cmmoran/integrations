@@ -1,6 +1,6 @@
 {
   "name": "@ory/integrations",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Integrations for Ory Cloud",
   "author": "Ory GmbH",
   "prettier": "ory-prettier-styles",
@@ -14,8 +14,7 @@
     "format:check": "prettier --check ${npm_package_config_prettierTarget}",
     "build": "rm -rf dist ui nextjs && rollup -c",
     "prepublishOnly": "npm run build",
-    "test": "jest --detectOpenHandles",
-    "postinstall": "rollup -c"
+    "test": "jest --detectOpenHandles"
   },
   "devDependencies": {
     "@babel/core": "7.15.5",
