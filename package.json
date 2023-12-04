@@ -1,11 +1,11 @@
 {
   "name": "@ory/integrations",
-  "version": "v0.0.1",
+  "version": "v0.0.8",
   "description": "Integrations for Ory Cloud",
   "author": "Ory GmbH",
   "prettier": "ory-prettier-styles",
   "license": "Apache-2.0",
-  "repository": "https://github.com/ory/integrations",
+  "repository": "https://github.com/cmmoran/integrations",
   "config": {
     "prettierTarget": "**/*.{tsx,ts,json,md,js,css}"
   },
