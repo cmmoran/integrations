@@ -1,6 +1,6 @@
 {
   "name": "@ory/integrations",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Integrations for Ory Cloud",
   "author": "Ory GmbH",
   "prettier": "ory-prettier-styles",
