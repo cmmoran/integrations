@@ -9,7 +9,14 @@ const bundle = (config) => ({
 const modules = ["ui", "routes", "next-edge", "next"]
   .map((module) => [
     bundle({
-      plugins: [esbuild()],
+      plugins: [
+        esbuild({
+          tsconfig: "./tsconfig.json",
+          loaders: {
+            typescript: ".ts",
+          },
+        }),
+      ],
       input: `src/${module}/index.ts`,
       output: [
         {
