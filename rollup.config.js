@@ -11,10 +11,7 @@ const modules = ["ui", "routes", "next-edge", "next"]
     bundle({
       plugins: [
         esbuild({
-          tsconfig: "./tsconfig.json",
-          loaders: {
-            typescript: ".ts",
-          },
+          exclude: /dist/,
         }),
       ],
       input: `src/${module}/index.ts`,
